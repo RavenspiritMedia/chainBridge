@@ -1,0 +1,42 @@
+
+{ 
+  "relayerThreshold": "3",
+  "chains": [
+    {
+      "name": "WAGMI",
+      "type": "ethereum",
+      "id": "0",
+      "endpoint": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc",
+      "from": 
+        "0xFce453aA73177E63f24530ea106ee75d478a5cb1",
+       
+      "opts": {
+        "bridge": "0x13DffF643B09C0a79DBC9cabcc125c49d12BB964",
+        "erc20Handler": "0xDF416680108dAA67e5565dce402D8e5A1b7f8740",
+        "genericHandler": "0xDF416680108dAA67e5565dce402D8e5A1b7f8740",
+        "gasLimit": "1000000",
+        "maxGasPrice": "50000000000",
+        "http": "true",
+        "blockConfirmations":"0"
+      }
+    },
+    {
+      "name": "Indra-Chain",
+      "type": "ethereum",
+      "id": "1",
+      "endpoint": "http://192.168.0.107:1479",
+      "from": 
+        "0xA85D3F951D2708112861a259317B2Ad6f66f4c57",
+       
+      "opts": {
+        "bridge": "0x807f83FADB63BF6772f21027f8dc05508c7A52fc",
+        "erc20Handler": "0xee817aBd2DA76a0834c110432801417D6bE86918",
+        "genericHandler": "0xee817aBd2DA76a0834c110432801417D6bE86918",
+        "gasLimit": "1000000",
+        "maxGasPrice": "0",
+        "http": "true",
+        "blockConfirmations":"0" 
+      }
+    }
+  ]
+}
